@@ -1,5 +1,5 @@
 .contact {
-  background-color: #f8f9fa;
+  background-color: #0f0f15;
 }
 
 .contact-content {
@@ -9,9 +9,10 @@
 }
 
 .contact-info h3 {
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 2rem;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .contact-item {
@@ -21,12 +22,13 @@
 }
 
 .contact-item strong {
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .contact-item span {
-  color: #666;
+  color: #a0a0a0;
   font-size: 1.1rem;
 }
 
@@ -37,25 +39,26 @@
 }
 
 .social-link {
-  color: #3498db;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   padding: 0.5rem 1rem;
-  border: 2px solid #3498db;
-  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .social-link:hover {
-  background-color: #3498db;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .contact-form {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 2.5rem;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
 }
 
 .form-group {
@@ -65,7 +68,7 @@
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #2c3e50;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -73,16 +76,23 @@
 .form-group textarea {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #e9ecef;
-  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
   font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
   transition: border-color 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #3498db;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #a0a0a0;
 }
 
 .form-group textarea {

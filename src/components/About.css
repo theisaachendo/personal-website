@@ -1,5 +1,5 @@
 .about {
-  background-color: #f8f9fa;
+  background-color: #0f0f15;
 }
 
 .about-content {
@@ -12,7 +12,7 @@
 .about-text p {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  color: #555;
+  color: #a0a0a0;
   line-height: 1.7;
 }
 
@@ -26,20 +26,22 @@
 .stat {
   text-align: center;
   padding: 1.5rem;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
 }
 
 .stat h3 {
   font-size: 2.5rem;
-  color: #3498db;
+  color: #ffffff;
   margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
 .stat p {
-  color: #666;
-  font-weight: 600;
+  color: #a0a0a0;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -50,14 +52,14 @@
 }
 
 .about-placeholder {
-  background-color: #e9ecef;
-  border: 2px dashed #adb5bd;
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
   padding: 4rem 2rem;
   text-align: center;
   width: 100%;
   max-width: 350px;
-  color: #6c757d;
+  color: #a0a0a0;
 }
 
 .about-placeholder p {

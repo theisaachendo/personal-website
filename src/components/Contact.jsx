@@ -63,6 +63,7 @@ function Contact() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                placeholder="Your name"
                 required
               />
             </div>
@@ -75,6 +76,7 @@ function Contact() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder="your.email@example.com"
                 required
               />
             </div>
@@ -86,6 +88,7 @@ function Contact() {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                placeholder="Tell me about your project..."
                 rows="5"
                 required
               ></textarea>

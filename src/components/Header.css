@@ -1,6 +1,7 @@
 .header {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(10, 10, 15, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -16,8 +17,9 @@
 }
 
 .nav-brand h2 {
-  color: #2c3e50;
+  color: #ffffff;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .nav-list {
@@ -29,15 +31,18 @@
 .nav-link {
   background: none;
   border: none;
-  color: #333;
+  color: #ffffff;
   font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
   transition: color 0.3s ease;
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
 }
 
 .nav-link:hover {
-  color: #3498db;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 .menu-toggle {
@@ -67,8 +72,9 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(10, 10, 15, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     transform: translateY(-100%);
     opacity: 0;
     visibility: hidden;
@@ -88,7 +94,7 @@
   }
   
   .nav-list li {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   .nav-list li:last-child {
