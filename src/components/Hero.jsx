@@ -26,24 +26,16 @@ function Hero() {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Welcome to My Business
+              Your Website <span className="highlight">Brought to Life</span>
             </h1>
             <p className="hero-subtitle">
-              Professional services tailored to meet your needs. 
-              Let's work together to achieve your goals.
+              Leading full-stack developers specializing in SaaS and AI platforms, 
+              delivering affordable and reliable website development services.
             </p>
             <div className="hero-buttons">
-              <button onClick={scrollToContact} className="btn btn-primary">
-                Get Started
+              <button onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })} className="btn btn-primary">
+                See our work
               </button>
-              <button onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })} className="btn btn-secondary">
-                Learn More
-              </button>
-            </div>
-          </div>
-          <div className="hero-image">
-            <div className="hero-placeholder">
-              <p>Your Image Here</p>
             </div>
           </div>
         </div>

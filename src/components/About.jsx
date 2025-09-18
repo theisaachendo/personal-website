@@ -5,43 +5,33 @@ function About() {
     <section id="about" className="about">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle">Get to know the person behind the business</p>
+          <h2 className="section-title">Experienced <span className="highlight">Full-Stack</span> Developers</h2>
+          <p className="section-subtitle">With 200+ projects delivered, we offer fast, reliable web development and unlimited revisions to bring your vision to life.</p>
         </div>
         
         <div className="about-content">
-          <div className="about-text">
-            <p>
-              With years of experience in the industry, I'm passionate about delivering 
-              exceptional results for my clients. My approach combines technical expertise 
-              with a deep understanding of what businesses need to succeed.
-            </p>
-            <p>
-              I believe in building long-term relationships and providing personalized 
-              solutions that drive real value. Let's discuss how I can help you achieve 
-              your objectives.
-            </p>
-            
-            <div className="about-stats">
-              <div className="stat">
-                <h3>5+</h3>
-                <p>Years Experience</p>
-              </div>
-              <div className="stat">
-                <h3>50+</h3>
-                <p>Happy Clients</p>
-              </div>
-              <div className="stat">
-                <h3>100%</h3>
-                <p>Client Satisfaction</p>
-              </div>
+          <div className="about-stats">
+            <div className="stat">
+              <h3>200+</h3>
+              <p>Projects Launched</p>
+            </div>
+            <div className="stat">
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div className="stat">
+              <h3>100%</h3>
+              <p>Client Satisfaction</p>
             </div>
           </div>
           
-          <div className="about-image">
-            <div className="about-placeholder">
-              <p>Professional Photo</p>
-            </div>
+          <div className="about-text">
+            <h3>200+ Projects Launched</h3>
+            <p>
+              With over 200 successful projects, we bring experience, creativity, and reliability to every new website. 
+              Our team combines technical expertise with creative vision to deliver solutions that exceed expectations.
+            </p>
+            <button className="btn btn-primary">Get started now</button>
           </div>
         </div>
       </div>
