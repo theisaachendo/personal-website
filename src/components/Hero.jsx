@@ -1,5 +1,5 @@
 import './Hero.css'
-import Galaxy from './Galaxy'
+import Particles from './Particles'
 
 function Hero() {
   const scrollToContact = () => {
@@ -12,14 +12,15 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-background">
-        <Galaxy 
-          mouseRepulsion={true}
-          mouseInteraction={true}
-          density={1.5}
-          glowIntensity={0.5}
-          saturation={0.8}
-          hueShift={240}
-          transparent={true}
+        <Particles
+          particleColors={['#8B5CF6', '#A855F7', '#ffffff']}
+          particleCount={300}
+          particleSpread={8}
+          speed={0.15}
+          particleBaseSize={120}
+          moveParticlesOnHover={true}
+          alphaParticles={true}
+          disableRotation={false}
         />
       </div>
       <div className="hero-overlay">
